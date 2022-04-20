@@ -6,6 +6,10 @@ import router from './router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import axios from "axios"
+import "@/assets/iconfont/iconfont.css";
+
+
+import store from './store/index'
 
 //注册组件
 
@@ -17,10 +21,12 @@ Vue.prototype.$axios = axios;
 
 
 
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: {
     App
   },

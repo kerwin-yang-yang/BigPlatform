@@ -54,7 +54,7 @@ export default new Router({
               component: professionDetail,
             },
             {
-              path: '/result/professional/simpleDetail',
+              path: '/result/simple/simpleDetail',
               name: 'simpleDetail',
               component: simpleDetail,
             }

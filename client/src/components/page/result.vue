@@ -4,22 +4,22 @@
             <el-header>
                 <el-row :gutter="20">
                     <el-col :span="4">
-                        <div class="grid-content bg-purple" style="float: left;">
+                        <div class="grid-content bg-purple" style="float: left;height: 60px;" separator-class="el-icon-arrow-right">
                             <router-link to="/result/professional" class="tab-item">Professional</router-link>
                             <router-link to="/result/simple" class="tab-item">Simple</router-link>
                         </div>
                     </el-col>
                     <el-col :span="12">
-                        <div class="grid-content bg-purple">
-                            <el-input placeholder="请输入内容" v-model="input1" style="width: auto;">
-                                <template slot="prepend">Http://</template>
+                        <div class="grid-content bg-purple" style="height: 60px;width:100%">
+                            <el-input placeholder="请输入内容" v-model="address" style="width: 90%;">
+                                <template slot="prepend">目标仓库：</template>
                             </el-input>
-                            <el-button icon="el-icon-search" circle></el-button>
+                            <router-link to="/result/simple" class="tab-item"><el-button icon="el-icon-search" circle class="borderNone" @click="postID()"> </el-button></router-link>
                         </div>
                     </el-col>
                     <el-col :span="4">
                         <div class="grid-content bg-purple">
-                            <router-link to="/start" class="tab-item">ConnectWe</router-link>
+                            <router-link to="/start" class="tab-item">ConnectUs</router-link>
                         </div>
                     </el-col>
                     <el-col :span="4">
@@ -47,13 +47,13 @@
                         <el-menu-item index="2">
                             <i class="el-icon-s-marketing"></i>
                             <span>
-                                <router-link to="/result/professional">总览</router-link>
+                                <router-link to="/result/simple">总览</router-link>
                             </span>
                         </el-menu-item>
                         <el-menu-item index="3" disabled>
                             <i class="el-icon-s-order"></i>
                             <span>
-                                <router-link to="/result/professional/professionDetail">细节</router-link>
+                                <router-link to="/result/simple/simpleDetail">细节</router-link>
                             </span>
                         </el-menu-item>
                         <el-menu-item index="4">
@@ -64,9 +64,10 @@
                         </el-menu-item>
                     </el-menu>
                 </el-aside>
-                <el-main>
+                <el-main class="main">
                     <keep-alive>
-                        <router-view />
+                        <div>Welcome</div>
+                        <router-view></router-view>
                     </keep-alive>
                 </el-main>
             </el-container>
@@ -74,11 +75,13 @@
     </div>
 </template>
 <script>
+
 export default {
     name: 'result',
     data() {
         return {
             isCollapse: true,
+            address:'',
         };
     },
     methods: {
@@ -90,30 +93,45 @@ export default {
         },
         collapseChange() {
             this.isCollapse = !this.isCollapse;
+        }, 
+        postID: function () {
+            
+            this.$axios.get('http://127.0.0.1:1234/post', { params: { "address": this.address } }).then(red => {
+                const loading = this.$loading({
+          lock: true,
+          text: '仓管扫描中',
+           target: '.main',
+          spinner: 'el-icon-loading',
+          background: 'rgba(0, 0, 0, 0.7)'
+        });
+        setTimeout(() => {
+          loading.close();
+        }, 40000);
+            })
+        
         }
     }
 }
 </script>
 <style scoped>
 .el-header {
-    background-color: #b3c0d1;
+    background-color: #FFFFFF;
     color: #333;
     text-align: center;
     line-height: 60px;
 }
 
 .el-aside {
-    background-color: #d3dce6;
+    background-color: #FFFFFF;
     color: #333;
     text-align: center;
     line-height: 200px;
 }
 
 .el-main {
-    background-color: #e9eef3;
+    background-color: #F5F6FA;
     color: #333;
     text-align: center;
-    line-height: 160px;
 }
 .el-row {
     margin-bottom: 20px;
@@ -121,6 +139,10 @@ export default {
 }
 .el-col {
     border-radius: 4px;
+    height: 60px;
+}
+.el-input__inner {
+    border: none;
 }
 .div {
     background-color: aliceblue;
@@ -128,5 +150,13 @@ export default {
 .el-menu-vertical-demo:not(.el-menu--collapse) {
     width: 150px;
     min-height: 400px;
+}
+.router-link-active {
+    text-decoration: none;
+    color: #6ae184;
+}
+.a:visited {
+    text-decoration: none;
+    color: #ad00004d;
 }
 </style>

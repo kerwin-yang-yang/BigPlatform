@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "536459",
+      "name": "person",
+      "font_class": "person",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "642081",
+      "name": "project2",
+      "font_class": "xiangmu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1251375",
+      "name": "watch",
+      "font_class": "watch",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "1302615",
+      "name": "licenseicon",
+      "font_class": "licenseicon",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1388133",
+      "name": "person",
+      "font_class": "person1",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1841528",
+      "name": "ic-Contributors",
+      "font_class": "ic-gongxianrenyuan",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "2932864",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e80d",
+      "unicode_decimal": 59405
+    },
+    {
+      "icon_id": "6598313",
+      "name": "bug-fill",
+      "font_class": "bug-fill",
+      "unicode": "e8e8",
+      "unicode_decimal": 59624
+    },
+    {
+      "icon_id": "6598314",
+      "name": "bug",
+      "font_class": "bug",
+      "unicode": "e8e9",
+      "unicode_decimal": 59625
+    },
+    {
+      "icon_id": "7778904",
+      "name": "issue",
+      "font_class": "issue",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "11383286",
+      "name": "稿件统计",
+      "font_class": "rc-icon-contribution-statistics",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "21169230",
+      "name": "earth-grid-select-language-button",
+      "font_class": "earth-grid-select-language-button",
+      "unicode": "e58c",
+      "unicode_decimal": 58764
+    },
+    {
+      "icon_id": "22894706",
+      "name": "fork",
+      "font_class": "fork",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "25282935",
+      "name": "enhance",
+      "font_class": "enhance",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    }
+  ]
+}

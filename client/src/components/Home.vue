@@ -10,7 +10,15 @@
                     mode="horizontal"
                     @select="handleSelect"
                 >
-                    <img class="logo1" src="../assets/logo.png" alt="金融大数据" />
+                    <router-link to="/start" class="tab-item">
+                        <img
+                            class="logo1"
+                            src="../assets/part1.png"
+                            alt="SECOP"
+                            style="width: 80px;height: 80px;"
+                        />
+                    </router-link>
+
                     <el-menu-item class="first-menu">
                         <router-link to="/start" class="tab-item">START</router-link>
                     </el-menu-item>
@@ -22,7 +30,10 @@
                         <router-link to="/about" class="tab-item">ABOUT</router-link>
                     </el-menu-item>
                     <el-menu-item class="first-menu">
-                        <a href="https://cn.bing.com/" target="_Blank">GitHub</a>
+                        <a
+                            href="https://github.com/kerwin-yang-yang/BigPlatform"
+                            target="_Blank"
+                        >GITHUB</a>
                     </el-menu-item>
                     <!-- <el-submenu index="2">
                         <template slot="title">SERVICES</template>
@@ -38,7 +49,7 @@
                 </keep-alive>
             </el-main>
             <el-footer class="bottom-footer">
-                <p>© 2022 finish JUAN</p>
+                <p>© 2022 finish by bean-paste group</p>
             </el-footer>
         </el-container>
     </div>
@@ -55,9 +66,7 @@ export default {
         }
     },
     methods: {
-        handleSelect(key, keyPath) {
-            console.log(key, keyPath)
-        }
+       
     }
 }
 </script>
@@ -65,6 +74,16 @@ export default {
 <style >
 .el-container {
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color:#1d1d1d;
+}
+
+.router-link-active {
+    text-decoration: none;
+    color: black;
 }
 .bottom-footer {
     background-color: transparent;
@@ -101,7 +120,7 @@ export default {
     top: 8px;
 }
 .itemName {
-    font-size: 16px;
+    font-size: 15px;
     color: #cccccc;
     text-align: center;
     line-height: 60px;
@@ -119,7 +138,7 @@ export default {
 }
 li.el-menu-item.first-menu {
     color: #cccccc;
-    font-size: 16px;
+    font-size: 20px;
     width: 120px;
 }
 .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,

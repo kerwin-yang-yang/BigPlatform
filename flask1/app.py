@@ -1,4 +1,6 @@
+
 from flask import Flask, jsonify, request
+import json
 
 from flask_cors import CORS
 app = Flask(__name__)
@@ -13,10 +15,16 @@ def hello_world():
 def returns():
      
      if request.method=='GET':
-            val=request.args.get('address')   
-            print(val)
-            data={'msg': 'ok'}
-            return jsonify(data)
+            val=request.args.get('address').split("/")  
+            rName =val[4].split(".")
+            file=open("data/exercism-python.json","r",encoding='utf-8')
+            data1 = json.load(file)
+            # for i in data1['basic']:
+            #     print(i)
+            file.close()
+            # data={'msg': 'ok'}
+            # return jsonify(data)
+            return data1
 
 
 

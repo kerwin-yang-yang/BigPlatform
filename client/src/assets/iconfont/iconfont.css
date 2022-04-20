@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id  */
+  src: url('iconfont.ttf?t=1649755220370') format('truetype');
+}
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont-zx.ttf?t=1649928680187') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+
+  font-style: normal;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: 7px solid #a1a1a1;
+  border-radius: 30px;
+  margin-left: 10px;
+  
+}
+
+.icon-version:before {
+  content: "\e68d";
+}
+
+.icon-fenshuxian:before {
+  content: "\e615";
+}
+
+.icon-git-pull-request:before {
+  content: "\e619";
+}
+
+.icon-versions:before {
+  content: "\e62f";
+}
+
+.icon-Branches:before {
+  content: "\e60a";
+}
+
+.icon-shuju:before {
+  content: "\e625";
+}
+
+
+
+.icon-person:before {
+  content: "\e60c";
+}
+
+.icon-xiangmu:before {
+  content: "\e61b";
+}
+
+.icon-watch:before {
+  content: "\e69b";
+}
+
+.icon-licenseicon:before {
+  content: "\e612";
+}
+
+.icon-person1:before {
+  content: "\e61c";
+}
+
+.icon-ic-gongxianrenyuan:before {
+  content: "\e65d";
+}
+
+.icon-xingxing:before {
+  content: "\e80d";
+}
+
+.icon-bug-fill:before {
+  content: "\e8e8";
+}
+
+.icon-bug:before {
+  content: "\e8e9";
+}
+
+.icon-issue:before {
+  content: "\e61e";
+}
+
+.icon-rc-icon-contribution-statistics:before {
+  content: "\e60b";
+}
+
+.icon-earth-grid-select-language-button:before {
+  content: "\e58c";
+}
+
+.icon-fork:before {
+  content: "\e672";
+}
+
+.icon-enhance:before {
+  content: "\e69e";
+}
+
+
+
+
+
+
+.icon-person {
+  border-color: #ffdede;
+  background-color: #ffdede;
+  color: #ff5b5c
+}
+
+.icon-xiangmu {
+  border-color: #6ae184;
+  background-color: #6ae184;
+  color: #FFFFFF
+}
+
+.icon-watch {
+  border-color: #d2ffe8;
+  background-color: #d2ffe8;
+  color: #5de2a0
+}
+
+.icon-licenseicon {
+  border-color: #32caf8;
+  background-color: #32caf8;
+  color: #FFFFFF
+}
+
+.icon-person1 {
+  border-color: #68bf99;
+  background-color: #68bf99;
+  color: #FFFFFF
+}
+
+.icon-ic-gongxianrenyuan {
+  border-color: #b8c4d1;
+  background-color: #b8c4d1;
+  color: #1377e2
+}
+
+.icon-xingxing {
+  border-color: #fdc941;
+  background-color: #fdc941;
+  color: #FFFFFF
+}
+
+.icon-bug-fill {
+  border-color: #68bf99;
+  background-color: #68bf99;
+  color: #FFFFFF
+}
+
+.icon-bug {
+  border-color: #ffdede;
+  background-color: #ffdede;
+  color: #ff9898
+}
+
+.icon-issue {
+  border-color: #e2ecff;
+  background-color: #e2ecff;
+  color: #6293ef
+}
+
+.icon-rc-icon-contribution-statistics {
+  border-color: #ffd947;
+  background-color: #ffd947;
+  color: #FFFFFF
+}
+
+.icon-earth-grid-select-language-button {
+  border-color: #68bf99;
+  background-color: #68bf99;
+  color: #FFFFFF
+}
+
+.icon-fork {
+  border-color: #e2ecff;
+  background-color: #e2ecff;
+  color: #5a8dee
+}
+
+.icon-enhance {
+  border-color: #b1ebd2;
+  background-color: #b1ebd2;
+  color: #2fbb7e
+}
+
+
+.icon-version {
+  border-color: #b1ebd2;
+  background-color: #b1ebd2;
+  color: #2fbb7e
+}
+
+.icon-fenshuxian {
+  border-color: #b1ebd2;
+  background-color: #b1ebd2;
+  color: #2fbb7e}
+
+.icon-git-pull-request {
+  border-color: #b1ebd2;
+  background-color: #b1ebd2;
+  color: #2fbb7e}
+
+.icon-versions {
+  border-color: #c6b6eb;
+  background-color: #c6b6eb;
+  color: #7948EA}
+
+.icon-Branches{
+  border-color: #97d3cf;
+  background-color: #97d3cf;
+  color: #0c3d3a}
+
+.icon-shuju {
+  border-color: #FFF48E;
+  background-color: #FFF48E;
+  color: #FFFFFF}

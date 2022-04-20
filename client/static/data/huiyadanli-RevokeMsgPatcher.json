@@ -1,0 +1,332 @@
+[
+  {
+    "basic": [
+      {
+        "repo_name": "huiyadanli/RevokeMsgPatcher",
+        "license": "GNU General Public License v3.0",
+        "language": "C#"
+      }
+    ],
+    "contributors": [
+      {
+        "num_of_contributors": "2",
+        "contributors": [
+          {
+            "contributor_name": "huiyadanli",
+            "historical_contributions": 182
+          },
+          {
+            "contributor_name": "protosskai",
+            "historical_contributions": 1
+          }
+        ]
+      }
+    ],
+    "vitality": [
+      {
+        "num_of_star": 14300,
+        "num_of_fork": 2023,
+        "num_of_watch": 214
+      }
+    ],
+    "dependency": [
+      {
+        "num_of_dependency": 6,
+        "info_of_dependency": [
+          {
+            "dependency_name": "The file has no dependencies or is too large to display",
+            "dependency_token": "null",
+            "dependency_version": "null"
+          },
+          {
+            "dependency_name": "/actions/checkout",
+            "dependency_token": "actions/checkout",
+            "dependency_version": "2"
+          },
+          {
+            "dependency_name": "/actions/upload-artifact",
+            "dependency_token": "actions/upload-artifact",
+            "dependency_version": "2"
+          },
+          {
+            "dependency_name": "/microsoft/setup-msbuild",
+            "dependency_token": "microsoft/setup-msbuild",
+            "dependency_version": "1.0.2"
+          },
+          {
+            "dependency_name": "/actions/checkout",
+            "dependency_token": "actions/checkout",
+            "dependency_version": "2"
+          },
+          {
+            "dependency_name": "/actions/upload-artifact",
+            "dependency_token": "actions/upload-artifact",
+            "dependency_version": "2"
+          },
+          {
+            "dependency_name": "/microsoft/setup-msbuild",
+            "dependency_token": "microsoft/setup-msbuild",
+            "dependency_version": "1.0.2"
+          },
+          {
+            "dependency_name": "The file has no dependencies or is too large to display",
+            "dependency_token": "null",
+            "dependency_version": "null"
+          },
+          {
+            "dependency_name": "The file has no dependencies or is too large to display",
+            "dependency_token": "null",
+            "dependency_version": "null"
+          }
+        ]
+      }
+    ],
+    "issue": [
+      {
+        "num_of_issue": "26",
+        "issues": [
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/313",
+            "issue_name": "微信闪退",
+            "issue_label": "question",
+            "issue_content": "\n          微信版本：3.60.18\n最近突然发生了闪退的情况，点某个人的对话窗口时，微信会闪退。闪退的一般都是之前撤回过消息的聊天，把聊天记录删了就不会。估计可能是聊天记录损坏导致。不知道大佬能否修复\n      ",
+            "issue_comment": "微信版本：3.60.18 \n最近突然发生了闪退的情况，点某个人的对话窗口时，微信会闪退。闪退的一般都是之前撤回过消息的聊天，把聊天记录删了就不会。估计可能是聊天记录损坏导致。不知道大佬能否修复 我这边测试没出现这个问题。。 issue 暂时不关，看看有无类似的反馈"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/293",
+            "issue_name": "能不能把企业微信安排上",
+            "issue_label": "",
+            "issue_content": "\n          大佬，能不能把企业微信安排上\n      ",
+            "issue_comment": "大佬，能不能把企业微信安排上"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/279",
+            "issue_name": "微信第一次打开表情会有卡顿",
+            "issue_label": "question",
+            "issue_content": "\n          安装补丁之后,微信第一次打开表情会有卡顿,大约一分钟左右的卡死状态\n      ",
+            "issue_comment": "安装补丁之后,微信第一次打开表情会有卡顿,大约一分钟左右的卡死状态"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/243",
+            "issue_name": "能否更新一下撤回提示？",
+            "issue_label": "",
+            "issue_content": "\n          现在最新的版本，撤回了都没有提示，很多时候别人撤回了，如果不看手机的话，都不知道对方撤回了，所以能否增加或者修复撤回提示的功能？谢谢\n      ",
+            "issue_comment": "现在最新的版本，撤回了都没有提示，很多时候别人撤回了，如果不看手机的话，都不知道对方撤回了，所以能否增加或者修复撤回提示的功能？谢谢 支持，如果对方以光速撤回，而我又回复了，非常尴尬，露馅了。 附议附议！也是看见别家软件有这个功能所以想来说一下 附议，没有提示都不敢用防撤回了 撤回提醒没有了。 不要慌，装作网络卡了就行了 能否加个撤回提示呢，这样很尴尬啊 现在好像是新版的微信不能搞撤回提示了。。。坐等大佬找到方法~ 附议 附议，撤回提醒真的很实用，万分期待 附议 2021年12月14日10:42:32 附议 2021-12-14 19:43:31 附议 2021年12月16日 15:31:04 附议 2021年12月17日 10:27:36 个人猜测哈：1、技术方面不好加了，WX那边做了改动；2、安全方面，加了撤回提示可能会加大封号的危险系数。欢迎大佬们纠正~~~ 附议 附议 2021-12-21 09:18:55 附议 2021-12-24 17:55:00 附议 2021年12月28日 13:45:04 附议 2021年12月29日10:24:37 都不看closed的issue吗？这issue重复了多少次了。。。。。。 \nORZ \n \n 暂时没有方法能做到这个了，可以使用老版本微信然后安装补丁（2.8.0.112~3.3.5.15的版本都可以）。 坐等其他大佬研究出新方法了 悲伤 \n3.3.5.15哪里有安装包 暂时没有方法能做到这个了，可以使用老版本微信然后安装补丁（2.8.0.112~3.3.5.15的版本都可以）。 坐等其他大佬研究出新方法了 我试过33515了，和最新版一样是没有提示的 暂时没有方法能做到这个了，可以使用老版本微信然后安装补丁（2.8.0.112~3.3.5.15的版本都可以）。 \n坐等其他大佬研究出新方法了 我试过33515了，和最新版一样是没有提示的 不含 3.3.5.15 这个版本。。。 现在还有撤回提示吗？ 增加下撤回提醒。谢谢。 WeChatSetup_3.3.0.1000【微信可看见撤回提示】版本下载： \n \n提取码：1g9p 臣附议 陈附议"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/242",
+            "issue_name": "[Feature Request]QQ频道的防撤回功能",
+            "issue_label": "enhancement",
+            "issue_content": "\n          \nQQ频道有撤回功能，所以希望推出防撤回功能\n      ",
+            "issue_comment": "\nQQ频道有撤回功能，所以希望推出防撤回功能 这东西还在测试中。 这东西还在测试中。 提前部署，五年计划 这东西还在测试中。 提前部署，五年计划 如果可以实现，那作者目前需要一个有内测资格的账号 这东西还在测试中。 提前部署，五年计划 如果可以实现，那作者目前需要一个有内测资格的账号 关闭安卓QQ后台，进入安卓根目录(如果手机没有root可以用电脑上的安卓模拟器) \n \n添加以下两项配置 进 注：其中   字段替换为你的QQ号 \n例如QQ号为   ，则为以下例子： 打开安卓QQ，就有频道了，有了安卓QQ的频道之后随便加一个频道，几分钟后再打开PC版QQ，就有PC版QQ的频道了 打开安卓QQ，就有频道了，有了安卓QQ的频道之后随便加一个频道，几分钟后再打开PC版QQ，就有PC版QQ的频道了 感谢提供方法。 更新：拿到创建频道的资格了，进行了详细测试，以下方法证实用处不大。 此方法仅能实现 中的消息防撤回，因为其余子频道的消息没有进行下载，仅仅更新了消息预览。 \n且消息并没有保存下来，切换子频道后会重新加载子频道消息，获取消息的逻辑还是在QQ中（ ），导致防撤回的消息丢失。 如果还是有兴趣可以参考修改后的代码： 原文： 可通过修改QQ频道的 实现，位于 我用了相当粗暴的方法： 直接注释成了： 找到这个方法的过程： 任何频道都不让加入怎么办 任何频道都不让加入怎么办 内测就是让有资格的拉没资格的人进去，你进不去就等公测，很简单的道理，内测一个人有一千多个邀请券，估计有几百万几千万个邀请券在市面上流传，你这都碰不到，我觉得你没资格使用这个功能 pc版频道已经公测了？可以支持了吗？"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/239",
+            "issue_name": "微信多开程序设置开机启动",
+            "issue_label": "enhancement",
+            "issue_content": "\n          现在微信多开程序打开后还要再次手动点击启用\n是否有命令行运行方式可以 直接双击打开后就能自动启用\n避免每次还要手动点击,还能放到开机启动程序里面\n(那个补丁的多开似乎会在升级后失效)\n      ",
+            "issue_comment": "现在微信多开程序打开后还要再次手动点击启用 是否有命令行运行方式可以 直接双击打开后就能自动启用 避免每次还要手动点击,还能放到开机启动程序里面 (那个补丁的多开似乎会在升级后失效)"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/235",
+            "issue_name": "调查：是否本补丁会造成电脑微信无法同步最近消息",
+            "issue_label": "",
+            "issue_content": "\n          我认为我有这个问题，重新安装原版后正常，不知道其他人是否有类似情况。\n      ",
+            "issue_comment": "我认为我有这个问题，重新安装原版后正常，不知道其他人是否有类似情况。 更新到 3.4.0.38 这个版本 重新打补丁这个问题应该就没了吧 之前有遇到过，但我不确定是因为补丁引起的，后面我发现补丁失效，重新打了一下，就没遇到过同步的问题。但是是无法判断是补丁引起的，因为感知比较明显导致该异常的，通常是网络情况。 用的无修原版，有这毛病 最近别人的表情包没法同步了 有这个问题 我也有遇到过这个问题 不知道是不是补丁引起的 一直用的原版，就有这个问题，经常没有最近的文件 关闭自动登录功能试试，我之前测试的时候这个功能会导致PC微信消息无法同步，新版本不知道有没有修复 一直用的原版，就有这个问题，经常没有最近的文件 微信只能同步最近的20条消息，与是否打补丁无关。"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/223",
+            "issue_name": "windows11 多开失效",
+            "issue_label": "",
+            "issue_content": "\n          windows11 无法检查到当前已启动的微信，启动多开后打开微信仍是已启动的微信。\n      ",
+            "issue_comment": "windows11 无法检查到当前已启动的微信，启动多开后打开微信仍是已启动的微信。 win11难用得很，这边建议不要用 win11微信防撤回版本不适配，是不是和win11有关啊"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/184",
+            "issue_name": "3.3.0.93的微信版本可以看朋友圈了，楼主有考虑做朋友圈‘防撤回’的功能吗？",
+            "issue_label": "",
+            "issue_content": "\n          \n            No description provided.\n          \n      ",
+            "issue_comment": "可以把朋友圈功能干掉吗? 去掉小红点也行.. 这个有点牛逼了 手机可以实现"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/183",
+            "issue_name": "您好,有准备做企业版微信的防撤回不",
+            "issue_label": "",
+            "issue_content": "\n          您好,有准备做企业版微信的防撤回不\n      ",
+            "issue_comment": "您好,有准备做企业版微信的防撤回不 同问 +1 关注 同问，希望能加上此功能，也非常有用 \n用TIM的人还没企业微信多那都有防撤回了 附议 有没有企业微信已读但是显示未读的【滑稽"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/182",
+            "issue_name": "0.9版本微信出现的两个问题",
+            "issue_label": "question",
+            "issue_content": "\n          1、微信接收的图片会只显示部分或者花屏\n2、微信内的文件打开时会受到360的风险提示（附的截图是edge浏览器触发的，当时已经做了微信和QQ的备份还原，且0.9版本已删入回收站）\n\n\n\n      ",
+            "issue_comment": "1、微信接收的图片会只显示部分或者花屏 \n2、微信内的文件打开时会受到360的风险提示（附的截图是edge浏览器触发的，当时已经做了微信和QQ的备份还原，且0.9版本已删入回收站） \n \n \n \n \n \n 每次从微信打开接收的文件都会有这个提示，是阻止还是允许啊 \n 每次从微信打开接收的文件都会有这个提示，是阻止还是允许啊 \n 这个无所谓的吧，是wps在修改文件关联，阻止放行随意。在wps里面修改一些自动检查文件关联相关的设置，应该就不会再弹出这种警告了 没找到相关的设置，顺便反馈一下，1.0版本还存在图片不全的问题 \n Ver. 1.0启动QQ时，QQ黑屏，微信没问题。 \n怎么解决？ Ver. 1.0启动QQ时，QQ黑屏，微信没问题。 \n怎么解决？ 我QQ目前没有出现你说的这种情况 Ver. 1.0启动QQ时，QQ黑屏，微信没问题。 \n怎么解决？ 跟补丁无关，请确认是否是使用的第三方修改过的版本 Ver. 1.0启动QQ时，QQ黑屏，微信没问题。 \n怎么解决？ 跟补丁无关，请确认是否是使用的第三方修改过的版本 不是 我这里是微信聊天图片全部加载失败，包括他人头像，点开也是加载失败"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/178",
+            "issue_name": "求增加 取消微信强制升级功能",
+            "issue_label": "",
+            "issue_content": "\n          微信已设置不自动升级，可有时候仍然会强制升级。\n      ",
+            "issue_comment": "微信已设置不自动升级，可有时候仍然会强制升级。 电脑重启后，就失效了，每天都要重新打补丁 每天都要重新打补丁? 话说总不可能每天微信都会升级吧 电脑重启后，就失效了，每天都要重新打补丁 你这种情况，我还没听说过。。。 电脑重启后，就失效了，每天都要重新打补丁 如果设置开机自启动的话 补丁可能存在无法生效的情况 你可以选择手动打开微信 微信的强制升级是会失效，没有任何提示，关闭微信重新打开直接就升级了。 我两天电脑同一天安装的同一版本微信和补丁，公司的电脑重启后再开微信就要升级。。。家里的不会"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/148",
+            "issue_name": "能不能支持下win10应用商店版的QQ",
+            "issue_label": "enhancement",
+            "issue_content": "\n          用这个的原因这几天你懂的，浏览器记录什么的\n手动指定到C:\\Program Files\\WindowsApps***\\QQ\\Bin会提示“无法找到此应用的关键文件，请选择正确的安装路径“\n手动输也不行\n      ",
+            "issue_comment": "用这个的原因这几天你懂的，浏览器记录什么的 \n手动指定到C:\\Program Files\\WindowsApps***\\QQ\\Bin会提示“无法找到此应用的关键文件，请选择正确的安装路径“ \n手动输也不行 忘了再补充一句，沙盘里运行原版官方QQ也有这毛病，找不到路径 忘了再补充一句，沙盘里运行原版官方QQ也有这毛病，找不到路径 先打补丁再在沙盘中运行 忘了再补充一句，沙盘里运行原版官方QQ也有这毛病，找不到路径 先打补丁再在沙盘中运行 第三方修改的QQ好像也不行。。我感觉其实你只要能让指定QQ.exe的话这些毛病应该都能解决？ 程序只是修改了QQ的IM.dll，只要指定正确的文件目录就能进行防撤回的修改，并不会去hook QQ的进程，所以无论你是否使用沙盒都无所谓。 第三方修改的QQ，已经改动了IM.dll中相同的地方可能就不支持。 试了一下，应该是定位QQ这一层文件夹就足够了，但是我遇到了新的问题，那就是点击补丁的时候，会提示拒绝访问……求大佬告知办法 同样的问题 \n“对路径的访问被拒绝” \n \n同样的问题，希望大佬早点解决 \n \n \n \n \n \n \n \n \n \n \n \n \n \n 感谢提供办法，实测有效，另外微信可以用0.7版本替换（注意没有撤回提示）"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/131",
+            "issue_name": "PC端聊天记录显示异常（附复现截图）",
+            "issue_label": "question",
+            "issue_content": "\n          \n      ",
+            "issue_comment": "有无更多人测试能得到结果的。。。我个人测试没遇到这种情况。。 个人推测是微信本身的BUG，在特殊情况下能复现。。"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/122",
+            "issue_name": "QQ勋章墙",
+            "issue_label": "enhancement",
+            "issue_content": "\n          可以在破解QQ防撤回的时候同时支持勋章墙的破解吗？\n      ",
+            "issue_comment": "可以在破解QQ防撤回的时候同时支持勋章墙的破解吗？ 可以做到但是需求量好像不多"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/121",
+            "issue_name": "安装防撤回插件后图片表情加载不出来",
+            "issue_label": "",
+            "issue_content": "\n          安装防撤回插件后图片表情加载不出来\n\n还原防撤回插件后 图片表情加载正常\n      ",
+            "issue_comment": "安装防撤回插件后图片表情加载不出来 \n \n还原防撤回插件后 图片表情加载正常 29541没问题 \n我这边表情也是加载不出来  我这边一直有这个问题 卸载插件后正常 能帮忙看下吗 谢谢大佬  直接安装最新版微信，不安装补丁，表情能正常加载不？  目前是最新版 插件备份还原后表情就能正常加载了 不清楚是不是和公司网络有关 但是不装插件就没这个问题  目前是最新版 插件备份还原后表情就能正常加载了 不清楚是不是和公司网络有关 但是不装插件就没这个问题 我这边没法复现这种情况，可以暂时停止使用补丁程序一段时间，观察下。  目前是最新版 插件备份还原后表情就能正常加载了 不清楚是不是和公司网络有关 但是不装插件就没这个问题 我这边没法复现这种情况，可以暂时停止使用补丁程序一段时间，观察下。 这个问题时不时会出现，同时，通过退出再重新登录也可使图片表情正常加载 部分小程序无法加载完成，图片加载不出来重新登录可以解决"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/115",
+            "issue_name": "希望能够让撤回的消息和其它消息有区别",
+            "issue_label": "duplicate",
+            "issue_content": "\n          希望能够让撤回的消息能和没撤回的消息有区别，不然无法分别\n      ",
+            "issue_comment": "希望能够让撤回的消息能和没撤回的消息有区别，不然无法分别 +1 +1 +1 +1 +1 大佬幸苦了 谢谢作者的辛苦工作。 就像iphone的防撤回插件一样，会有一个小提示“某某撤回了XXX的消息”，再次感谢作者。 最好能有防撤回的提示，谢谢大佬"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/98",
+            "issue_name": "请求支持钉钉",
+            "issue_label": "enhancement",
+            "issue_content": "\n          希望加入钉钉防撤回\n      ",
+            "issue_comment": "希望加入钉钉防撤回 +1，希望加一个支持查看钉钉撤回的功能 +1 希望加入钉钉防撤回 +1 ++∞ +1 +1 +1 +1 针对钉钉的需求真的很多啊，疫情导致的各企业用钉钉的越来越多了，有时候领导发的消息撤回了，心思一晚上都睡不好觉呢。 针对钉钉的需求真的很多啊，疫情导致的各企业用钉钉的越来越多了，有时候领导发的消息撤回了，心思一晚上都睡不好觉呢。 真实 +1 +=1 +1 +1 希望钉钉防撤回+1 +1 +1"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/90",
+            "issue_name": "重要！QQ报错：文件被破坏或丢失",
+            "issue_label": "documentation",
+            "issue_content": "\n          昨天突然出现的，还以为被盗号了，重装完QQ又报错，再重装没事了结果想起来没装防撤回又回来下载安装装完就又提示了。。。望修复，谢谢\n      ",
+            "issue_comment": "昨天突然出现的，还以为被盗号了，重装完QQ又报错，再重装没事了结果想起来没装防撤回又回来下载安装装完就又提示了。。。望修复，谢谢 求修复 请提供下QQ的具体版本 我也不知道版本叫啥，反正QQ最新版这样 重装完装防撤回后360报IM.dll设置关键启动项 QQ界面左下角菜单 - 帮助 - 关于，可以看到QQ版本 360应该会报关键dll被注入修改，而不是设置启动项 是启动项，QQ9.3.2(26869)，360反而不报关键修改，报的是IM.dll试图设置关键启动项，貌似这个要么允许要么拒绝都得快点点，不然就会弹QQ损坏 有一样的问题  去年发生的，主要是QQ  微信 重装过一会就又不行了，qq的protect服务会一直提示文件损坏，后来嫌麻烦重装了系统。因为即使清理了QQ 微信的安装目录（可能还有其他地方） 导致qq 微信无法使用 于是放弃使用了"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/71",
+            "issue_name": "希望 QQ 可以支持显示哪条信息被撤回过",
+            "issue_label": "enhancement",
+            "issue_content": "\n          如题。谢谢！\n不过看了已有的 Issue，可能是技术有限，可以理解。\n      ",
+            "issue_comment": "如题。谢谢！ \n不过看了已有的 Issue，可能是技术有限，可以理解。 Same as above. Same as above. Same as above. 嗯 希望QQ和微信都能够新鲜事哪条信息被撤回过 mac有一个qq助手可以支持，小白不知道那对作者有没有帮助 貌似这个是纯粹利用修改撤回逻辑的，作者应该不会加这个功能吧，虽然我也想要 这个功能确实非常必要，希望作者可以实现。 希望QQ和微信都能够新鲜事哪条信息被撤回过 微信也不支持 \n只能在拦截到撤回时自动显示有撤回但不是准确位置（伪的） QQ原理是 撤回的跳转条件：如果被撤回那么不显示消息并改为撤回提示 被改成了 如果否那么不显示消息并改为撤回提示 \n微信不知道 Same as above."
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/67",
+            "issue_name": "请求支持企业微信。",
+            "issue_label": "enhancement",
+            "issue_content": "\n          希望能支持企业微信，谢谢了。\n      ",
+            "issue_comment": "希望能支持企业微信，谢谢了。 附议，谢谢 同样有企业微信的需求，请求支持 附议，非常感谢。 希望能支持企业微信, 请求支持. 希望能支持企业微信。 强烈建议支持企业微信 企业微信，企业QQ，希望都能支持。 不错 附议，企微，蓝信。赞助一个小星星 强烈建议支持企业微信 强烈建议支持 企业微信 同求企业微信,另外希望大佬出一个 能屏蔽群聊里面发言信息 全是[点赞]字符除此之外无其他内容的彩虹屁发言,或者给个思路 ,小弟才疏学浅,无法定位群聊相关的dll和反汇编出来的功能区 顶起来 Hope to support   ( ), thank you. 同求支持企业微信"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/58",
+            "issue_name": "可不可以支持Microsoft Store的版本的QQ？",
+            "issue_label": "enhancement",
+            "issue_content": "\n          版本如图\n\n位置：\nC:\\Program Files\\WindowsApps\\903DB504.46618D74B1ECA_9.1.6.0_x86__a99ra4d2cbcxa\\QQ\\Bin\n      ",
+            "issue_comment": "版本如图 \n \n位置： \nC:\\Program Files\\WindowsApps\\903DB504.46618D74B1ECA_9.1.6.0_x86__a99ra4d2cbcxa\\QQ\\Bin 还有Microsoft Store的微信 同求 Similar to  . 支持商店版本需要一个稳定的权限支持机制。Store应用目录都是SYSTEM权限，只允许几个特殊的用户组修改。所以需要实现的功能包括，先获取所有权，然后把当前用户加到ACL里，修改文件，然后再把刚加入的条目删掉，再把所有者改回SYSTEM。 我手动替换文件都有障碍，先取得WindowsApps文件夹和QQ所在包的文件夹的拥有权，然后添加允许自己用户所有权限的规则，但是还是没法修改里面的文件。我把权限改来改去，还把ACL翻出来和其他文件的ACL比对过，但都没用，只能删除里面的文件，不能修改"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/30",
+            "issue_name": "能否添加企业微信pc版支持呢",
+            "issue_label": "enhancement",
+            "issue_content": "\n          企业微信PC版由于工作原因要用，能否添加防撤回呢，看看到底是哪个同事在暗恋我！\nSent from PPHub\n      ",
+            "issue_comment": "企业微信PC版由于工作原因要用，能否添加防撤回呢，看看到底是哪个同事在暗恋我！ +1 企业微信，企业QQ，希望都能支持。 是哦 ，企微有这个就更牛了。 +10086 希望可以添加支持 希望可以添加支持"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/23",
+            "issue_name": "再加上QQ勋章墙功能就完美了",
+            "issue_label": "enhancement",
+            "issue_content": "\n          再加上QQ勋章墙功能就完美了\n      ",
+            "issue_comment": "再加上QQ勋章墙功能就完美了"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/17",
+            "issue_name": "希望能增加免认证登录功能",
+            "issue_label": "",
+            "issue_content": "\n          希望可以参考mac的WechatExtension添加免认证登录功能（https://github.com/MustangYM/WeChatExtension-ForMac）\n      ",
+            "issue_comment": "希望可以参考mac的WechatExtension添加免认证登录功能（ 是呀，Mac版的防撤回，免认证登录，撤回转发到手机上，这些都很好的功能啊，希望能够增加。 功能不适宜添加太多，容易让整个项目被kill"
+          },
+          {
+            "issue_serial": "/huiyadanli/RevokeMsgPatcher/issues/7",
+            "issue_name": "希望能支持通过 Windows Store 安装的微信PC版",
+            "issue_label": "enhancement",
+            "issue_content": "\n          该程序无法自动识别通过 Windows Store 安装的微信PC版，手动选择路径也无法识别出是微信。\n\n微信路径为：\nC:\\Program Files\\WindowsApps\\TencentWeChatLimited.forWindows10_2.6.3.0_x86__sdtn*******d7a\\WeChatStore\n微信版本：2.6.30\n系统信息：Windows 10 1903\n      ",
+            "issue_comment": "该程序无法自动识别通过 Windows Store 安装的微信PC版，手动选择路径也无法识别出是微信。 \n 微信路径为： \nC:\\Program Files\\WindowsApps\\TencentWeChatLimited.forWindows10_2.6.3.0_x86__sdtn*******d7a\\WeChatStore \n微信版本：2.6.30 \n系统信息：Windows 10 1903 这个估计不行 \nWindows Store 安装的应用程序不能被直接修改"
+          }
+        ],
+        "each_label_info": [
+          {
+            "label": "bug",
+            "introduction": "Something isn't working",
+            "amount": ""
+          },
+          {
+            "label": "documentation",
+            "introduction": "Improvements or additions to documentation",
+            "amount": "1"
+          },
+          {
+            "label": "duplicate",
+            "introduction": "This issue or pull request already exists",
+            "amount": "1"
+          },
+          {
+            "label": "enhancement",
+            "introduction": "New feature or request",
+            "amount": "11"
+          },
+          {
+            "label": "good first issue",
+            "introduction": "Good for newcomers",
+            "amount": ""
+          },
+          {
+            "label": "help wanted",
+            "introduction": "Extra attention is needed",
+            "amount": ""
+          },
+          {
+            "label": "invalid",
+            "introduction": "This doesn't seem right",
+            "amount": ""
+          },
+          {
+            "label": "question",
+            "introduction": "Further information is requested",
+            "amount": "4"
+          },
+          {
+            "label": "wontfix",
+            "introduction": "This will not be worked on",
+            "amount": ""
+          },
+          {
+            "label": "未支持版本",
+            "introduction": "未支持版本",
+            "amount": ""
+          }
+        ]
+      }
+    ],
+    "pr": [
+      {
+        "num_of_pr": 0,
+        "pr": "null"
+      }
+    ]
+  }
+]
