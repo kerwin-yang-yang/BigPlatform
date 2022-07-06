@@ -3,5 +3,6 @@
         "browserslist",
         "echart"
     ],
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "commentTranslate.source": "baidu"
 }
