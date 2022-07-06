@@ -4,5 +4,4 @@
         "echart"
     ],
     "python.formatting.provider": "black",
-    "commentTranslate.source": "baidu"
 }
