@@ -15,53 +15,54 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   routes: [{
-      path: '/',
-      redirect: {
-        name: 'start'
-      }
+    path: '/',
+    redirect: {
+      name: 'start'
+    }
+  },
+  {
+    path: '/Home',
+    name: 'Home',
+    component: Home,
+    children: [{
+      path: '/start',
+      name: 'start',
+      component: start,
     },
     {
-      path: '/Home',
-      name: 'Home',
-      component: Home,
+      path: '/about',
+      name: 'about',
+      component: about
+    },
+    {
+      path: '/result',
+      name: 'result',
+      component: result,
+      redirect: "/result/simple",
       children: [{
-          path: '/start',
-          name: 'start',
-          component: start,
-        },
-        {
-          path: '/about',
-          name: 'about',
-          component: about
-        },
-        {
-          path: '/result',
-          name: 'result',
-          component: result,
-          children: [{
-              path: '/result/simple',
-              name: 'simple',
-              component: simple
-            },
-            {
-              path: '/result/professional',
-              name: 'professional',
-              component: professional,
-            },
-            {
-              path: '/result/professional/professionDetail',
-              name: 'professionDetail',
-              component: professionDetail,
-            },
-            {
-              path: '/result/simple/simpleDetail',
-              name: 'simpleDetail',
-              component: simpleDetail,
-            }
-          ]
-        }
+        path: '/result/simple',
+        name: 'simple',
+        component: simple
+      },
+      {
+        path: '/result/professional',
+        name: 'professional',
+        component: professional,
+      },
+      {
+        path: '/result/professional/professionDetail',
+        name: 'professionDetail',
+        component: professionDetail,
+      },
+      {
+        path: '/result/simple/simpleDetail',
+        name: 'simpleDetail',
+        component: simpleDetail,
+      }
       ]
     }
+    ]
+  }
 
 
 

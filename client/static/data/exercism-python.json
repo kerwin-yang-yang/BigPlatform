@@ -888,7 +888,7 @@
   "overview_of_scanner": {
     "quality_score": 98.67,
     "info_of_code_check": {
-      "untreated vulnerability": {
+      "vulnerability": {
         "num_of_total": 31,
         "num_of_deadly_level": 0,
         "num_of_error_level": 10,
@@ -923,7 +923,39 @@
       "num_of_blank": 13569,
       "num_of_code": 52082,
       "num_of_annotation": 2368
-    }
+    },
+    "cyclomatic_complexity": [
+      {
+        "function": "format_entries",
+        "file": "ledger.py",
+        "complexity": "75",
+        "state": "急需处理"
+      },
+      {
+        "function": "parse",
+        "file": "markdown.py",
+        "complexity": "22",
+        "state": "需要关注"
+      },
+      {
+        "function": "BuildTree",
+        "file": "tree_building.py",
+        "complexity": "22",
+        "state": "需要关注"
+      },
+      {
+        "function": "solution",
+        "file": "example.py",
+        "complexity": "21",
+        "state": "需要关注"
+      },
+      {
+        "function": "k.fn.extend",
+        "file": "jquery.min.js",
+        "complexity": "21",
+        "state": "需要关注"
+      }
+    ]
   },
   "issue_list_of_scanner": [
     {
@@ -1238,5 +1270,5 @@
     }
   ],
   "description": "exercism/Python is one of many programming language tracks on exercism(dot)org. This repo holds all the instructions, tests, code, & support files for Python exercises currently under development or implemented & available for students.",
-  "score": "75"
+  "score": "70"
 }
